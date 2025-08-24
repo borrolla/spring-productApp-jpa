@@ -17,3 +17,4 @@ This is a Spring Boot application demonstrating CRUD operations with JPA and MyS
 ## MySQL Screenshots
 
 ![Products Table](screenshotMysql.png)
+![Products Table2](ProductTableByMYSQL.png)
