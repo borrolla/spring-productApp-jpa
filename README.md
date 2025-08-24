@@ -9,10 +9,11 @@ This is a Spring Boot application demonstrating CRUD operations with JPA and MyS
 
 ## Postman Screenshots
 
-![Add Product](screenshots/postman_add_product.png)
-![Get Product by ID](screenshots/postman_get_product.png)
-![Get All Products](screenshots/postman_get_all.png)
+![Add Product](PostmanAddProduct.png)
+![Get Product by ID](GetProductsById.png (2))
+![Get Product by ID](GetProductsById.png)
+![Get All Products](PostmanGetALLProducts.png)
 
 ## MySQL Screenshots
 
-![Products Table](screenshots/mysql_products.png)
+![Products Table](screenshotMysql.png)
