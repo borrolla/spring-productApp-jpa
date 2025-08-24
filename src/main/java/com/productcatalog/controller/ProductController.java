@@ -33,10 +33,12 @@ public class ProductController {
 	
 	//data comes in body part of the request - use @RequestBody
 		// id should come in the request- only then record will be updated
+	//while updating product the id is required so because it will consered the new insert or nullll value
 	@PutMapping("/products")
     public ResponseEntity<ProductDTO> updateProduct(@RequestBody ProductDTO productDto) {
 		ProductDTO updateProduct = productService.updateProduct(productDto);
 		return new ResponseEntity<>(updateProduct, HttpStatus.OK);
+		
 		
 	}
 	
