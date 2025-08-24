@@ -1,20 +1,15 @@
-# Spring ProductApp JPA
+# Spring Product App JPA
 
-This is a Spring Boot application demonstrating CRUD operations with JPA and MySQL.
+## Screenshots
 
-## Features
-- Add, update, get products by ID
-- List all products
-- REST API endpoints tested with Postman
+### Add Product
+![Add Product](screenshots/PostmanAddProduct.png.png)
 
-## Postman Screenshots
+### Get Product By ID
+![Get Product By ID](screenshots/GetProductsById.png.png)
 
-![Add Product](PostmanAddProduct.png)
-![Get Product by ID](GetProductsById.png (2))
-![Get Product by ID](GetProductsById.png)
-![Get All Products](PostmanGetALLProducts.png)
+### Get All Products
+![Get All Products](screenshots/PostmanGetALLProducts.png.png)
 
-## MySQL Screenshots
-
-![Products Table](screenshotMysql.png)
-![Products Table2](ProductTableByMYSQL.png)
+### MySQL Product Table
+![Product Table](screenshots/ProductTableByMYSQL.png.png)
